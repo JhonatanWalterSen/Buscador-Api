@@ -159,6 +159,7 @@ img{
 .card {
     position: relative;
     flex: 0 0 calc(30% - 2rem);
+    transition: all .5s;
 }
 .showCards__details{
     width: 100%;

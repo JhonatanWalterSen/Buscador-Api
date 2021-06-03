@@ -52,8 +52,6 @@ const filtrar = ()=>{
                 </div>
                 `
                 ;
-                // let limitrofe = document.querySelectorAll('.limitrofe[target]');
-                // console.log(limitrofe)
             }
         }
         console.log('CARGADO')
@@ -64,8 +62,8 @@ const filtrar = ()=>{
 }
 // boton.addEventListener('click', filtrar);
 formulario.addEventListener('keyup', filtrar);
-
 // filtrar();
+
 
 
 
