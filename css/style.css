@@ -159,7 +159,7 @@ img{
 .card {
     position: relative;
     flex: 0 0 calc(30% - 2rem);
-    transition: all .5s;
+    transition: 0.5s;
     word-break: break-all;
 }
 .showCards__details{
@@ -176,6 +176,10 @@ img{
     flex-direction: column;
     margin-bottom: 40px;
     border-radius: 20px;
+}
+.card:hover{
+    transition: .5s;
+    background: rgba(255, 255, 255, 0.05);
 }
 .flag{
     display: flex;

@@ -56,7 +56,7 @@ const filtrar = ()=>{
         }
         console.log('CARGADO')
         if(resultado.innerHTML === ''){
-            resultado.innerHTML += `<p class="not-find">Pais no encontrado </p>`;
+            resultado.innerHTML += `<p class="not-find">País no encontrado </p>`;
         }
     }) 
 }
