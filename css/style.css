@@ -160,6 +160,7 @@ img{
     position: relative;
     flex: 0 0 calc(30% - 2rem);
     transition: all .5s;
+    word-break: break-all;
 }
 .showCards__details{
     width: 100%;
@@ -251,6 +252,9 @@ img{
 @media screen and (max-width: 450px){
     .container {
         width: 90%;
+    }
+    .flag img{
+        height:  180px;
     }
 }
 
